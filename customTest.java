@@ -16,5 +16,6 @@ class customTest {
         } catch (ArithmeticException e) {
             System.out.println(e.getMessage());
         }
+        sc.close();
     }
 }
