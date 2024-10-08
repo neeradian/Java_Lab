@@ -18,12 +18,12 @@ public class GenericMethodTest
         Character[] charArray = { 'H', 'E', 'L', 'L', 'O' };
 
         System.out.println( "Array integerArray contains:" );
-        GenericMethodTest.<Integer>printArray( intArray  ); // pass an Integer array
+        printArray( intArray  ); // pass an Integer array
 
         System.out.println( "\nArray doubleArray contains:" );
-        GenericMethodTest.<Double>printArray( doubleArray ); // pass a Double array
+        printArray( doubleArray ); // pass a Double array
 
         System.out.println( "\nArray characterArray contains:" );
-        GenericMethodTest.<Character>printArray( charArray ); // pass a Character array
+        printArray( charArray ); // pass a Character array
     } 
 }   

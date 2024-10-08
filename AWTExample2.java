@@ -2,9 +2,6 @@
 import java.awt.*;
 
 // class AWTExample2 directly creates instance of Frame class.
-/**
- * AWTExample2
- */
 class AWTExample2 {
 
     // Initializing using contructor
