@@ -45,6 +45,6 @@ class AWTExample2 {
     //main method
     public static void main(String[] args) {
         //creating instance of Frame class
-        AWTExample2 awt_obj = new AWTExample2();
+        new AWTExample2();
     }
 }
